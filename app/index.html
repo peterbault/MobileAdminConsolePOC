@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="mobileAdminConsole">
+	<head>
+		<link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+		<link rel="stylesheet" href="css/app.css">
+
+		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+		<script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
+
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/services.js"></script>
+		<script type="text/javascript" src="js/controllers.js"></script>
+		
+		<title>AirWatch</title>
+	</head>
+
+	<body>
+		<section class="header">
+			<img src="img/awlogo.png" />
+		</section>
+		<div ng-view class="content"></div>
+	</body>
+</html>

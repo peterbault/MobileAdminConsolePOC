@@ -1,0 +1,6 @@
+<ul class="device-list">
+	<li ng-repeat="device in devices" class="device-row">
+		<a href="#/devices/{{device.id}}"><img ng-src="{{device.icon}}"></a>
+		<a href="#/devices/{{device.id}}">{{device.friendlyName}}</a>
+	</li>
+</ul>
